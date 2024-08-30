@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body {
+  background-image: url("../images/loginpic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Numans', sans-serif;
+}
+
+.container {
+  height: 100vh;
+}
+
+.container2 {
+  text-align: center;
+}
+
+.login-title {
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 13%;
+  z-index: 1;
+}
+
+.login-title{
+	text-align: center;
+}
+
+.login-title h1{
+	font-size: 95px;
+	color: #2691d9;
+}
+
+.login-title h3{
+	font-size: 35px;
+	margin-top: -10px;
+}
+
+.card {
+  height: 40%;
+  width:59%;
+  top: 28%;
+  transform: translateY(-50%);
+  background-color: white;
+  border-radius: 1.5rem;
+}
+
+.sub-title {
+	color: #000000;
+	text-align: center;
+  margin-top: 2px;
+	margin-bottom: 35px;
+}
+
+.logo .profile {
+  margin-left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%);
+}
+
+.logo .tweak {
+  color: #2691d9;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.input-group-prepend {
+  min-width: 40px;
+}
+
+.login-form .input-group-text {
+  width: 100%;
+  background: #2691d9;
+  border: 0px;
+}
+
+.login-form input::placeholder, .login-form textarea::placeholder {
+    color: #000000;
+    font-weight: 800px;
+}
+
+.login-form input, .login-form textarea {
+  background: #f1f1f1;
+	border: 0px;
+  border-color: #2691d9;
+	color: rgb(0, 0, 0);
+	font-family: 'Nunito', sans-serif;
+  font-weight: 800px;
+}
+
+.login-form input:focus, .login-form textarea:focus {
+  outline: 0 0 0 0  !important;
+  box-shadow: 0 0 0 0 !important;
+  background-color: #f1f1f1;
+  color: #000000;
+	font-family: 'Nunito', sans-serif;
+  font-weight: 800px;
+}
+
+.login-form button.btn-custom {
+  background: #2691d9;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.login-form button.btn-custom:hover{
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+	background: #005c99;
+	border-color: #2691d9;
+}
+
+.card-footer {
+  border-radius: 3rem;
+  margin-bottom: 10px;
+  margin-right: 17px;
+  margin-left: 17px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
